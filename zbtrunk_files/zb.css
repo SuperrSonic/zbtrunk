@@ -1,0 +1,55 @@
+body		{
+		 background-color: #092042;
+
+/*上は背景色の設定*/
+/*スクロールバーの設定*/
+		 scrollbar-base-color : #e3f3ff;
+		 scrollbar-face-color : #e3f3ff;
+		 scrollbar-arrow-color : #ffffff;
+		 scrollbar-3dlight-color: #6699ff;
+		 scrollbar-highlight-color : #bbccff;
+		 scrollbar-shadow-color : #bbccff;
+		 scrollbar-darkshadow-color : #6699ff;
+		 scrollbar-track-color : #e9f3ff;}
+
+body, th, td { color: #cccccc; }
+font.back { color: #092042; }
+/*フォントサイズと文字間隔の設定*/
+body,tr,td,th,div	{font-size: 10pt; line-height: 130%;}
+
+/*文字サイズ定義、実質掲示板用*/
+big		{font-size: 11pt }
+small		{font-size: 9pt}
+
+/*アンカータグ設定。リンク色、訪問済みリンク色、カーソル当ててる時のリンク色*/
+A:link		{color: #A3BAFD; text-decoration: none; }
+A:visited	{color: #91A5E0; text-decoration: none; }
+A:hover		{color: #CEA4F9; text-decoration: none; }
+A:active	{color: #CEA4F9; text-decoration: none; }
+A:link.cyclone	{color: #000000; text-decoration: none; }
+A:visited.cyclone	{color: #000000; text-decoration: none; }
+A:hover.cyclone		{color: #CEA4F9; text-decoration: none; }
+A:active.cyclone	{color: #CEA4F9; text-decoration: none; }
+
+/*表の色の定義。*/
+TD.title	{background:#294C84;}
+TD.menu		{background:#5074A6;}
+TD.bef		{background:#ccccff;color:#000000;}
+TD.af		{background:#ffcccc;color:#000000;}
+TD.cyclone		{background:#33cc33;}
+TD.joker		{background:#000000;}
+TD.extreme		{background:#cccccc;}
+
+/*nicky用*/
+.category input{ border:solid 1px #808080; background:none;} 
+
+/*フォーム関係の枠の設定*/
+input,textarea,select {
+		 border-top:1px solid #808080;
+		 border-left:1px solid #808080;
+		 border-right:3px solid #808080;
+		 border-bottom:3px solid #808080;
+		 background-color:#FFFFFF;}
+/*同、ラジオボタン*/
+.radio {border:0px; background:none;}
+
