@@ -635,7 +635,33 @@ a:visited { color: #00C0C0; }
 				<br>reasons it got split between two single-layer copies of the game.
 				<br><br>My changes: Manually inserting the translated textures into the game files so a real Wii
 				<br>can play it. Repoint many item descriptions to translate them, re-encode every cutscene
-				<br>at a lower rate to fit the entire game as a file on FAT32.<br></br></td>
+				<br>at a lower rate to fit the entire game as a file on a FAT32 file system.<br></br></td>
+				<tr>
+				
+				<tr>
+				<td><a href="https://gbatemp.net/threads/restoring-original-colors-to-gba-vc.427642/">3DS GBA VC<br>Color Restoration</a></td>
+				<td>2016<br>Original work.</td>
+				<td>
+					Nintendo 3DS							</a>
+				</td>
+				<td>When Nintendo released the 10 GBA ambassador games, they dimmed the colors
+				<br>and applied a motion blur effect. People didn't like this. Eventually though, it became
+				<br>possible to use any GBA ROM to play on the 3DS, this made me curious and got my hands
+				<br>on a 3DS, after some confusingly long steps I got the official Fire Emblem amb. title and
+				<br>could finally see for myself how this GBA mode performed. I honestly loved it, even with
+				<br>the dark colors, it was super fun to play it.
+				<br><br>Except, when the time came to use my own GBA games ambition came knocking
+				<br>and I started looking at how the "injector" tool did its work, but it was simpler than
+				<br>expected, it's mainly just the ROM with some bytes at the end. On those bytes you could
+				<br>see a pattern of numbers that slowly increase until they reach the max whiteness
+				<br>this changed for some games but simply put it was a hint that each game had around
+				<br>30% black on the output. I used that hint to tweak the pattern so that it would end
+				<br>at 0xFF which worked. For the motion filter, it was easier because the tool would change
+				<br>this value thinking it had to do with savefile types, one game I tried used EEPROM
+				<br>while others were FLASH, I noticed immediately that EEPROM games had blurrier motion
+				<br>than e.g. a fast paced game like Sonic Advance 2. So I compared both and found the byte
+				<br>before the color pattern to control the amount of ghosting.<br>
+				<br>Since then I've greatly enjoyed using my 3DS as a GBA.<br></br></td>
 				<tr>
 				
 				<tr>
